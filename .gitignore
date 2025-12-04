@@ -1,0 +1,47 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Sensitive files - NEVER commit these
+*.hash
+*.hashes
+*.ntds
+*.dit
+*.sam
+*.system
+*.security
+credentials.txt
+passwords.txt
+secrets.txt
+loot/
+exfil/
+
+# Tool output files
+*.restore
+*.json.bak
+responder/
+ntlmrelay/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
